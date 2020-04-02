@@ -22,6 +22,7 @@ def palindrome_check(string):
 while True:
 
     word = str(input("Enter a word or a phrase and I'll tell you if it's a palindrome.\n>"))
+
     if word.isalpha():
         palindrome_check(word)
 
